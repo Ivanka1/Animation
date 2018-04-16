@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding:  0;
+    padding: 0;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 
 .header {
     margin: auto;
-    display:  flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
