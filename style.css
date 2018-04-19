@@ -6,6 +6,7 @@
 body {
     background: #f9f9f9;
     position: relative;
+    font-family: sans-serif, Arial;
 }
 
 .header {
@@ -49,6 +50,7 @@ h1 {
 
 .main:hover {
     transform: translate(0,-20px);
+    box-shadow: 0px 0px 15px #DADADA;
 }
 
 .box {
@@ -66,4 +68,18 @@ h2 {
     letter-spacing: 3px;
     font-weight: 800;
     margin: 20px 0;
+}
+@media screen and (max-width: 1400px){
+    .header {
+        width: 100%; }
+ }
+@media screen and (max-width: 400px){
+    .box {
+        margin: 10px;
+        padding: 15px;
+    }
+    h1 {
+        padding: 20px;
+        margin-left: 15px;
+    }
 }
